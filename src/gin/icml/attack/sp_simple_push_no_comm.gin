@@ -1,0 +1,11 @@
+TrialSettings.framework = "tf"
+RLSettings.train_batch_size = 5000
+RLSettings.alg = "ppo"
+RLSettings.env = "mpe_simple_push"
+TrialSettings.checkpoint_freq_M=1
+RLSettings.max_timesteps=50000000
+RLSettings.horizon=25
+RLSettings.sgd_minibatch_size=1000
+RLSettings.num_envs_per_worker=20
+TrialSettings.mode="attack"
+
