@@ -1,0 +1,12 @@
+TrialSettings.framework = "tf"
+RLSettings.train_batch_size = 10_000
+RLSettings.alg = "ppo"
+RLSettings.env = "os_laser_tag_zs"
+TrialSettings.checkpoint_freq_M=1
+RLSettings.max_timesteps=100_000
+TrialSettings.mode="pbt"
+RLSettings.horizon=1000
+RLSettings.num_envs_per_worker=1
+pbt.num_ops=40
+TrialSettings.num_workers=40
+
