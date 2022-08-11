@@ -1,0 +1,3 @@
+wandb
+seaborn
+pandas
