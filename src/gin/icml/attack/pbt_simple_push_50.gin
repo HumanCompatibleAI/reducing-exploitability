@@ -1,0 +1,12 @@
+TrialSettings.framework = "tf"
+RLSettings.alg = "ppo"
+RLSettings.env = "mpe_simple_push_comm_50"
+TrialSettings.checkpoint_freq_M=1
+RLSettings.max_timesteps=50000000
+RLSettings.horizon=25
+RLSettings.sgd_minibatch_size=1000
+RLSettings.num_envs_per_worker=20
+TrialSettings.mode="attack"
+attack.victim_config_setting="use_saved"
+attack.victim_policy_name="main"  # Victim is alwasy protagonst, called 'main'
+
